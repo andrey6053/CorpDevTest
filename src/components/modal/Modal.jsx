@@ -10,8 +10,7 @@ import { v4 as uuid } from "uuid";
 import { hideModal } from "../../store/reducers/uiSlice";
 import { itemSchema } from "../../utils/validator";
 import { addOne } from "../../store/reducers/dataSlice";
-
-const Item = require("../../model/Item");
+import Item from "../../model/Item";
 
 export default function Modal() {
   const modalDisplay = useSelector((state) => state.ui.modalDisplay);

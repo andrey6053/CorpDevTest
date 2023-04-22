@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 
-class Item {
+export default class Item {
   constructor({ id, name, year, color, pantone_value }) {
     this.id = id;
     this.name = name;
@@ -9,4 +9,3 @@ class Item {
     this.pantone_value = pantone_value;
   }
 }
-module.exports = Item;
