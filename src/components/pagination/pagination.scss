@@ -1,0 +1,19 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  img {
+    height: 35px;
+  }
+  button {
+    background-color: white;
+    border: none;
+  }
+  &__prev {
+    margin-right: 25px;
+  }
+  &__next {
+    margin-left: 25px;
+  }
+}

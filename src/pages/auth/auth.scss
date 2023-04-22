@@ -1,0 +1,63 @@
+@import "../../utils/utils.scss";
+
+.auth {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__form {
+    text-align: center;
+    display: flex;
+    width: 450px;
+    padding: 20px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+    border-radius: $border-radius;
+  }
+  img {
+    height: 65px;
+    width: 65px;
+  }
+  input {
+    margin-top: 15px;
+    height: 55px;
+    border-radius: $border-radius;
+    background-color: $backround-color-input;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #818181;
+    outline: none;
+    font-size: 1rem;
+  }
+  button {
+    width: 100%;
+    background-color: #190152;
+    border-radius: $border-radius;
+    height: 55px;
+    color: $main-color;
+    margin-top: 35px;
+    font-size: 1rem;
+  }
+  &__registration {
+    width: 100%;
+    background-color: $background-color;
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  &__link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+  }
+  &__error {
+    padding: 5px;
+    place-self: flex-start;
+    font-size: 1.05rem;
+    color: #970101;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../utils/utils.scss";
+
+.navbar {
+  height: 50px;
+  display: flex;
+  align-self: end;
+  align-items: center;
+  margin: 15px 50px 0px 0px;
+  button {
+    height: 35px;
+    width: 100px;
+    border-radius: $border-radius;
+    background-color: $background-color;
+    font-size: 1rem;
+    margin-left: 25px;
+  }
+}

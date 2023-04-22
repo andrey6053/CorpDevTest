@@ -1,0 +1,31 @@
+@import "../utils/utils.scss";
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-input-placeholder {
+  color: $secondary-color;
+  font-weight: 700;
+}
+
+::-ms-input-placeholder {
+  color: $secondary-color;
+  font-weight: 700;
+}
+
+::-moz-placeholder {
+  color: $secondary-color;
+  font-weight: 700;
+}
+
+:-moz-placeholder {
+  color: $secondary-color;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+}

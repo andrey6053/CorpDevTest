@@ -1,0 +1,44 @@
+@import "../../utils/utils.scss";
+
+.table {
+  margin: 0px 25px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  &__header {
+    display: grid;
+    grid-template-columns: 0.5fr repeat((6, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    align-items: center;
+    height: 50px;
+    justify-items: center;
+    position: sticky;
+    top: 20px;
+    border: 1px solid;
+    background-color: $background-color;
+  }
+  .ids-spinner {
+    background-color: $background-color;
+  }
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 0.5fr repeat((6, 1fr));
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  height: 50px;
+  &__row {
+    text-align: center;
+  }
+  &__btn {
+    img {
+      width: 35px;
+    }
+  }
+}
