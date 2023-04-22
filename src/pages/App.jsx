@@ -22,7 +22,7 @@ function App() {
       dispatch(setUser({ id, token }));
       dispatch(fetchData(currentPage));
     }
-  }, [currentPage, isAuth]);
+  }, [currentPage]);
   return (
     <BrowserRouter>
       <div className="App">

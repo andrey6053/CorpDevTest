@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { pageChanger } from "../../store/reducers/dataSlice";
 import "./pagination.scss";
@@ -11,6 +11,9 @@ export default function Pagination() {
   const pageHandler = (page) => {
     if (page >= 1) dispatch(pageChanger(page));
   };
+  useEffect(() => {
+    dispatch(pageChanger(1));
+  }, []);
   return (
     <div className="page">
       <button
