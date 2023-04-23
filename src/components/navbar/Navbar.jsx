@@ -21,7 +21,11 @@ export default function Navbar() {
           <button type="button" onClick={(e) => createItem(e)}>
             Создать
           </button>
-          <button type="button" onClick={(e) => logoutHandler(e)}>
+          <button
+            type="button"
+            className="navbar__logout"
+            onClick={(e) => logoutHandler(e)}
+          >
             Выйти
           </button>
         </div>
