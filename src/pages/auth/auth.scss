@@ -61,3 +61,12 @@
     color: #970101;
   }
 }
+
+@media (max-width: 450px) {
+  .auth {
+    &__form {
+      width: 100%;
+      padding: 20px 25px;
+    }
+  }
+}
